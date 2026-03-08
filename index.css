@@ -1,0 +1,222 @@
+.Poppins {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* rote width set */
+.body {
+  max-width: 1128px;
+  margin: auto;
+}
+/* button */
+.button {
+  font-size: 16px;
+  color: white;
+  background-color: #ff136f;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: none;
+  border-radius: 6px;
+}
+
+.contact-btn {
+  font-size: 24px;
+  color: white;
+  background-color: #ff136f;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: none;
+  border-radius: 6px;
+  height: 68px;
+}
+.card-button {
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: none;
+  border-radius: 6px;
+}
+
+/* navbar style */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* hero section style */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #feeae9;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.hero-heading {
+  font-size: 56px;
+  font: bold;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.hero-price {
+  font-size: 41px;
+  color: #ff136f;
+}
+
+/* category container */
+.category-heading{
+    font-size: 36px;
+    font: 700; 
+}
+
+.category-card h1{
+    font-size: 36px;
+    font: 700;
+    color: white;
+}
+
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+    
+}
+
+.category-card{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.Watch{
+    background-color: #FF9C35;
+}
+.bag{
+    background-color: #FF136F;
+}
+.Shoes{
+    background-color: #3F07F8;
+}
+
+
+/* card section */
+.card{
+    border: 1px solid #929292;
+    padding: 26px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.card h1{
+    font-size: 24px;
+}
+.card p{
+    color: #4E4E4E;
+    font-size: 16px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+
+/* contact section */
+.contact-section{
+    background-color: #FFF2F1;
+    text-align: center;
+    padding: 80px;
+    margin-top: 150px;
+}
+.contact-section p{
+    color: #707070;
+}
+
+.contact-section input{
+    height: 45px;
+    width: 500px; 
+    font-size: 24px;
+    border: none;
+    padding: 16px;
+}
+
+
+
+/* responsive design  start*/
+
+@media (max-width: 768px) {
+    .body{
+        padding: 10px;
+    }
+    .logo img{
+        width: 140px;
+        height: 40px;
+    }
+    .menu img{
+        width: 40px;
+        height: 40px;
+    }
+    /* hero section responsive  */
+ .hero-container{
+    display: flex;
+    flex-direction: column;
+ }
+ .hero-container img{
+    width: 390px;
+    height: 370px;
+ }
+ .hero-heading{
+    font-size: 29px;
+ }
+
+ /* category section */
+ .category-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* padding: 10px; */
+    gap: 26px;
+    
+}
+
+/* card section */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* padding: 10px; */
+    gap: 24px;
+}
+/* contact section */
+.contact-section input{
+    height: 45px;
+    width: 250px; 
+    font-size: 24px;
+    border: none;
+    padding: 16px;
+}
+.contact-section {
+    margin-top: 20px;
+}
+
+}
